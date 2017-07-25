@@ -83,6 +83,7 @@ public void scrapeGameInfo(WebDriver driver ) {
         
         gameObjectId = "7865";
         String firefoxProfile = "SimBin";
+     
         WebScraperBGG scrape = new WebScraperBGG();
         scrape.WebScraperBGGImpl(gameObjectId, firefoxProfile);       
    
